@@ -1,0 +1,67 @@
+div.top-container {
+    top: 300px;
+    position: relative;
+    text-align: center;
+}
+
+body, html {
+    font-family: 'Montserrat', normal;
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("image/IMG_BACK.PNG");
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(3, 189, 164);
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    margin: 5px;
+}
+
+h5 {
+    color: rgb(3, 189, 164);
+    font-family: 'Merriweather', normal;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+/* unique css command: navigation bar */
+
+.ulnavi ul{
+    list-style-type: none;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.ulnavi ul li {
+    float: left;
+}
+
+.ulnavi ul li a {
+    display: block;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ulnavi ul li a:hover {
+    color: rgb(214, 214, 214);
+    background-color: rgb(100, 100, 100);
+}
+
+/* end navigation bar */
+
+.roundcorner {
+    border-radius: 50px;
+    padding: 20px;
+}
