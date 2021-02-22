@@ -7,17 +7,16 @@ div.top-container {
 body, html {
     font-family: 'Montserrat', normal;
     height: 100%;
-    margin: 0;
 }
 
-.bg {
-    background-image: url("image/IMG_BACK.PNG");
+.bgstyle {
+    background-image: url("image/IMG_BACK.jpg");
+    height: 20px;
     background-attachment: fixed;
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
+
 
 h1 {
     color: rgb(3, 189, 164);
