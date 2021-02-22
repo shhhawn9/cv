@@ -1,5 +1,5 @@
 div.top-container {
-    top: 300px;
+    top: 250px;
     position: relative;
     text-align: center;
 }
@@ -10,7 +10,7 @@ body, html {
 }
 
 .bgstyle {
-    background-image: url("image/IMG_BACK.jpg");
+    background-image: url("image/IMG_BACK.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -19,26 +19,38 @@ body, html {
 
 
 h1 {
-    color: rgb(3, 189, 164);
+    color: rgb(21, 169, 149);
     font-family: 'Sacramento', cursive;
-    font-size: 70px;
+    font-size: 120px;
     margin: 5px;
 }
 
 h5 {
-    color: rgb(3, 189, 164);
+    color: rgb(21, 169, 149);
     font-family: 'Merriweather', normal;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px;
+    letter-spacing: 2px;
 }
 
 
 /* unique css command: navigation bar */
+.gitContainer {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
 
 .ulnavi ul{
     list-style-type: none;
     overflow: hidden;
     opacity: 0.7;
+    position: absolute;
 }
 
 .ulnavi ul li {
@@ -47,15 +59,19 @@ h5 {
 
 .ulnavi ul li a {
     display: block;
-    color: rgb(116, 116, 116);
+    border-radius: 100px;
+    border: 20px;
+    color: rgb(210, 210, 210);
+    opacity: 0.8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 .ulnavi ul li a:hover {
-    color: rgb(214, 214, 214);
-    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 /* end navigation bar */
