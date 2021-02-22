@@ -11,7 +11,7 @@ body, html {
 
 .bgstyle {
     background-image: url("image/IMG_BACK.jpg");
-    height: 20px;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
