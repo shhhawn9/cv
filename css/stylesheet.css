@@ -17,7 +17,6 @@ body, html {
     background-repeat: no-repeat;
 }
 
-
 h1 {
     color: rgb(21, 169, 149);
     font-family: 'Sacramento', cursive;
@@ -35,21 +34,10 @@ h5 {
 
 
 /* unique css command: navigation bar */
-.gitContainer {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 40px;
-    height: 40px;
-}
-
-
-
 
 .ulnavi ul{
     list-style-type: none;
     overflow: hidden;
-    opacity: 0.7;
     position: absolute;
 }
 
@@ -60,18 +48,19 @@ h5 {
 .ulnavi ul li a {
     display: block;
     border-radius: 100px;
-    border: 20px;
+    border: 5
+    px;
     color: rgb(210, 210, 210);
-    opacity: 0.8;
+    opacity: 0.6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 .ulnavi ul li a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
+    opacity: 1;
+    /* background-color: rgb(255, 255, 255); */
 }
 
 /* end navigation bar */
