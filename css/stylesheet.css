@@ -32,17 +32,17 @@ h5 {
 }
 
 .mid-container {
-    margin-top: 800px;
+    margin-top: 900px;
     background-color: white;
     position: relative;
-        text-align: center;
+    text-align: center;
 }
 
 .bot-container {
     /* background-color: white; */
     padding-top: 250px;
     /* position: relative; */
-        text-align: center;
+    text-align: center;
     height: 200px;
 }
 
@@ -88,8 +88,7 @@ h5 {
 .ulnavi ul li a {
     display: block;
     border-radius: 100px;
-    border: 5
-    px;
+    border: 5px;
     color: rgb(210, 210, 210);
     opacity: 0.6;
     text-align: center;
@@ -110,6 +109,7 @@ h5 {
     padding: 20px;
 }
 
+/* scroll animation start */
 .scroll-wrapper {
     display: flex;
     position: absolute;
@@ -118,18 +118,12 @@ h5 {
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 3em;
-    padding-bottom: 8rem;
+    width: 2em;
+    padding-bottom: 5rem;
 }
 
 .i--container {
-    /* display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox; */
     display: flex;
-    /* -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center; */
     justify-content: center;
 }
 
@@ -180,7 +174,6 @@ h5 {
 @keyframes move {
   25% {
     opacity: 1;
-
   }
   33% {
     opacity: 1;
@@ -197,16 +190,16 @@ h5 {
 }
 
 .text {
-  display: block;
-  margin-top: 75px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: #fff;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: .25;
-  animation: pulse 2s linear alternate infinite;
+    display: block;
+    margin-top: 65px;
+    margin-left: -35px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
 }
 
 @keyframes pulse {
@@ -214,3 +207,5 @@ h5 {
     opacity: 1;
   }
 }
+
+/* scroll animation end */
