@@ -33,6 +33,7 @@ h5 {
 
 .mid-container {
     margin-top: 900px;
+    height: 100px;
     background-color: white;
     position: relative;
     text-align: center;
@@ -76,9 +77,10 @@ h5 {
 /* unique css command: navigation bar */
 
 .ulnavi ul{
+    padding-top: 30px;
     list-style-type: none;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 }
 
 .ulnavi ul li {
@@ -209,3 +211,8 @@ h5 {
 }
 
 /* scroll animation end */
+
+/* .provile {
+  margin-top: 50px;
+  margin-bo
+} */
